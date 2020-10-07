@@ -39,7 +39,7 @@ def mbf():
     time.sleep(0.1)
     f=input("\n\033[90m> \033[1;93m")
     if f == "1":
-    print("\033[31;1m===========================================\033[31;1m")
+    print("\033[1;94m===========================================\033[00m")
     mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
